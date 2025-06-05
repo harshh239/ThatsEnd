@@ -1,0 +1,83 @@
+<!--
+   What is HTML?
+     HTML(Hyper text markup language) is a one type of tag base langue. we can use it to create frame work of web page.
+    coment :- it is used to share information for other developer it is not exicutable line.
+    How we can write tag?
+     syntx: <tagname></tagname>
+    How many types of tag in html?
+      Here in html 2 types of tag available.
+      1] single/unpair tag: = some tag doesn't need to close thats types of tag is call single/unpair tag. <br>,<hr>,<link>
+      2] couple/pair tag:  = some tag use with closing tag the thats types of tag is call couple/pair tag. <html>,<head>,<p> ..
+    Which tag are call main tag?
+       Html,head,title,body,p,div.
+
+    Attributes = atrributes is a one type of property for tag
+    How we can write attribute?
+      syntex: <tagname attribute1="value1" attribute2 = "value2" . . .>
+    How many types of attributes?
+       here 2 types of attributes are available.
+         1] global attributes = some attributes are used in all tag then it's call global attributes ex. id, class, name . . .
+         2] specific tag attributes = some attributes use only with specified tag then it call specific tag attributes. src,href, . . .
+
+    tag
+    title       =   title tag is used to create title for you web page.
+    body        =   it is use to display contain in browser body.
+    br          =   it is used to break line or take new line.
+    strong/b    =   it is use to highlight word or line in bold text.
+    i/em        =   it is use to create italic word.
+    U           =    it is used to underline word or line.
+    div/section = both tag are use to divide web page.
+    p           =   this tag is used to display paragraph on your web page.
+    img         =  if we want to display image on your web page then you can use img tag.
+    a           =  if we want to provide hyper link on your web page then we can use <a>.
+symbol and entities
+     syntex: &entityname;
+             &#code;
+-->
+    <html>
+        <head>
+            <title>Html Learning</title>
+            <link rel="stylesheet" href="learning.css">
+            <style>
+              *{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              }
+              p{
+                font-style: italic;
+                font-weight: 600;
+              }
+              .imp{
+                border: 2px solid greenyellow;
+              }
+              #italic
+              {
+                 background-color: cadetblue;
+                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                 font-weight: 500;
+              }
+            </style>
+        </head>
+        <body>
+              <img src="../../basictraining/img/Cafe-Rico-favorites-IG-post-1.jpg" style="width: 500px;">
+              Hello <b>Every one!</b><br>
+              Today we are starting our training session with <strong class="imp">basic introduction.</strong> <br>
+              Now we are try to <i id="italic">understand</i> How we can create web page <em>using HTML.</em><br>
+             <u style="color: brown;">We hope to know many more new thing in that session.</u> <br>
+             <div class="imp">Today we move frword for HTML learning<br>and gether knowledge about different tag <br> so it is help me to develop effective
+            design for web page</div>
+            <p> Now I am exiting to gether more and more knowledge in HTML<br> and try to develope fronted for custome.</p>
+            if you want to learn more About HTML then <a href="https://www.w3schools.com/tags/tag_html.asp">click here.</a> 
+            I want to learni frontaend site for web site then must nee to understand HTML tag
+             and it syntex is &lt;tagname&gt;&lt;/tagname&gt;
+             priti have 1.5 crore $<br>
+             I have innova car and it's prise is 2500&euro;
+             priti patel
+             <p class="imp">I am Patel Harikrushna.<br> I am a developer and trainer at chikhli branch for thatsEnd pvt ltd
+             </p>
+             
+             Harikrusha&nbsp;patel<br>
+             Thatsend &#x00A9;2024<br>
+             <p>I have also handling office some time and i feel good in this office</p>
+             &#163;
+          </body>
+    </html>
