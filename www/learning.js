@@ -152,7 +152,7 @@ for(a=0; a<=50; a+=5){
 console.log(age)
 //While loop
 var  sallary = 8500;
-while(age<=40){
+while(age<=40){ 
      console.log("age:",age+ 
        "Current Salary :",sallary)
      var inc = (25*sallary)/100;
