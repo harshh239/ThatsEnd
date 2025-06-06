@@ -168,7 +168,7 @@ do{
   console.log('at the '+age1+' he played '+match+' match');
   age1++;
 }while(age1<=50);
- arr.forEach((val)=> console.log('value: '+val));
+ arr.forEach((val)=> console.log('value: '+val)); 
 //for Each
  arrtarinee = {'first':'priti patel','second':'dhruv parmar','third':'hari patel'}
 Object.entries(arrtarinee).forEach(([K,v])=> console.log(K+'=>'+v));
