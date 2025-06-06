@@ -128,7 +128,7 @@ if (age >= 0 && age <= 12) {
   console.log("Adult");
 } else if (age >= 60) {
   console.log("Senior");
-} else {
+} else {  
   console.log("Enter Valid Number");
 }
 
@@ -230,3 +230,4 @@ switch (fc) {
     console.log("invalid")
     break;
 }
+alert("your subscription is ended next 2 days");
