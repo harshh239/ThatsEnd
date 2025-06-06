@@ -145,26 +145,22 @@ switch(fruits){
 // }
 
 ///loop
-
+//for loop
 for(a=0; a<=50; a+=5){
   console.log("Number: "+a)
 }
 console.log(age)
-
-
+//While loop
 var  sallary = 8500;
- 
 while(age<=40){
- 
-    console.log("age:",age+ 
+     console.log("age:",age+ 
        "Current Salary :",sallary)
      var inc = (25*sallary)/100;
      console.log("Increment :",inc);
     sallary+=inc;
     age++;
 }
- 
-
+//Do while 
 var age1=20;
 var match = 0;
 do{
@@ -173,7 +169,6 @@ do{
   age1++;
 }while(age1<=50);
  arr.forEach((val)=> console.log('value: '+val));
-
-
+//for Each
  arrtarinee = {'first':'priti patel','second':'dhruv parmar','third':'hari patel'}
 Object.entries(arrtarinee).forEach(([K,v])=> console.log(K+'=>'+v));
